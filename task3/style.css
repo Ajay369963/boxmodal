@@ -1,0 +1,30 @@
+p{
+    color:blue;
+}
+.container{
+    font-weight: bold;
+}
+.active{
+    background-color: yellow;
+}
+li{
+    border-bottom: 1px solid gray;
+}
+a:hover{
+    color: red;
+}
+ ul>li:first-child{
+    font-style: italic;
+}
+input[type|="text"]{
+    border: 2px solid red;
+}
+p:nth-child(even){
+    background-color:lightgrey;
+}
+ button::before{
+    content: "click me ";
+ }
+ button::after{
+    content: " click";
+ }
