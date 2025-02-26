@@ -1,0 +1,12 @@
+.blog{
+    color: blue;
+}
+h2{
+    color: red;
+}
+.blog>p:first-of-type{
+    font-weight: bold;
+}
+p{
+    background-color: lightgray;
+}
